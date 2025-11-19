@@ -1,0 +1,33 @@
+﻿@model web.Models.Application.CertificationsViewModel
+
+<h3>Professional Accreditation</h3>
+<form class="editable-form">
+    <div id="certificationsContainer">
+        <!-- Initial Certification Section -->
+        <div class="form-group">
+            <label asp-for="Certification"></label>
+            <input asp-for="Certification" class="form-control" />
+            <span asp-validation-for="Certification" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Institution"></label>
+            <input asp-for="Institution" class="form-control" />
+            <span asp-validation-for="Institution" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Document"></label>
+            <input asp-for="Document" type="file" class="form-control" />
+            <span asp-validation-for="Document" class="text-danger"></span>
+        </div>
+        <!-- End of Initial Certification Section -->
+    </div>
+
+    <div class="mt-4">
+        <button type="button" class="btn text-white " onclick="prevTab('#education')">Back</button>
+        <button type="button" class="btn text-white" onclick="nextTab('#experience')">Next</button>
+        <button type="button" class="btn text-white" onclick="addCertification()">Other</button>
+    </div>
+</form>
+

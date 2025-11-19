@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <link rel="stylesheet" href="~/css/admin.css" /> 
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/images/logo_dark-removebg-preview.png">
+</head>
+<body>
+    <div class="navbar">
+        <!-- Admin Navigation -->
+        <a href="@Url.Action("Index", "Admin")">Dashboard</a>
+        <a href="@Url.Action("ManageJobs", "Admin")">Manage Jobs</a>
+        <a href="@Url.Action("ViewApplications", "Admin")">View Applications</a>
+        <a href="@Url.Action("ManageUsers", "Admin")">Manage Users</a>
+        <a href="@Url.Action("Logout", "Account")">Logout</a>
+    </div>
+    <div class="container">
+        @RenderBody() <!-- This will render the view content -->
+    </div>
+</body>
+</html>

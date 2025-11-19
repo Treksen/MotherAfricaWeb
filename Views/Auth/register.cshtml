@@ -1,0 +1,50 @@
+﻿@using web.Models.Auth;
+
+@model CreateAccountModel;
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+<!-- MAIN -->
+<div class="register-page">
+    <div>
+
+        <!-- Registration form -->
+        <form class="editable-form" asp-controller="auth" asp-action="Profile2" method="post">
+            <h3>Register</h3>
+            <!-- Validation Summary for any errors -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- First Name Field -->
+            <input asp-for="FirstName" type="text" placeholder="First Name" class="form-control" />
+            <!-- Display validation message for FirstName -->
+            <span asp-validation-for="FirstName" class="text-danger"></span>
+
+            <!-- Last Name Field -->
+            <input asp-for="LastName" type="text" placeholder="Last Name" class="form-control" />
+            <!-- Display validation message for LastName -->
+            <span asp-validation-for="LastName" class="text-danger"></span>
+
+            <!-- Email Field -->
+            <input type="text" placeholder="Email Address" class="form-control" />
+            <span asp-validation-for="EmailAddress" class="text-danger"></span>
+            <!-- Password Field -->
+            <input asp-for="Password" type="password" placeholder="Password" class="form-control" />
+            <!-- Display validation message for Password -->
+            <span asp-validation-for="Password" class="text-danger"></span>
+
+            <!-- Confirm Password Field -->
+            <input asp-for="ConfirmPassword" type="password" placeholder="Confirm Password" class="form-control" />
+            <!-- Display validation message for ConfirmPassword -->
+            <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+            <!-- Register Button -->
+            <div class="mt-3">
+            <button type="submit" class="signin-button btn btn-primary">Register</button>
+            </div>
+            <!-- Sign In Link -->
+            <p class="message">Already registered? <a asp-controller="auth" asp-action="signin" style="color: #1d50a4;">sign in</a></p>
+        </form>
+    </div>
+</div>

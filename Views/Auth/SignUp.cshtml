@@ -1,0 +1,28 @@
+﻿@using web.Models.Auth;
+
+@model CreateAccountModel;
+
+@{
+    ViewData["Title"] = "Sign Up";
+}
+
+<!--MAIN-->
+<div class="login-page">
+    <div class="form bg-white border">
+
+        <form class="login-form " asp-action="signup" method="post">
+            <h3>Sign Up </h3>
+            <!-- TODO: Understand requirements on communicating validation errors -->
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input asp-for="FirstName" type="text" placeholder="First name" />
+            <input asp-for="FirstName" type="text" placeholder="Last name" />
+            <input type="text" placeholder="Email address" />
+            <input type="password" placeholder="password" />
+            <input type="text" placeholder="confirm password" />
+
+            <button class="signin-button">Sign up </button>
+            <p class="message">registered? <a asp-controller="auth" asp-action="signin" style="color: #1d50a4;">Sign in</a></p>
+        </form>
+    </div>
+</div>

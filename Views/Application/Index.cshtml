@@ -1,0 +1,76 @@
+﻿@{
+    ViewData["Title"] = "Application";
+}
+
+<div class="container pt-2 mb-5">
+    <div class="progress-container my-5">
+        <div class="progress-step completed" id="step-profile">
+            <div class="step">
+                <button type="button" class=" text-body text-button" onclick="nextTab('#education')"><p>1</p></button>
+            </div>
+            <h6 class="step-text">Profile</h6>
+        </div>
+        <div class="progress-step" id="step-education">
+            <div class="step">
+                <button type="button" class=" text-body text-button border-opacity-0" onclick="nextTab('#certifications')"><p>2</p></button>
+            </div>
+            <h6 class="step-text">Education</h6>
+        </div>
+        <div class="progress-step" id="step-certifications">
+            <div class="step">
+                <button type="button" class=" text-body text-button border-opacity-0" onclick="nextTab('#experience')"><p>3</p></button>
+            </div>
+            <h6 class="step-text">Certifications</h6>
+        </div>
+        <div class="progress-step" id="step-experience">
+            <div class="step">
+                <button type="button" class=" text-body text-button border-opacity-0" onclick="nextTab('#statutory')"><p>4</p></button>
+            </div>
+            <h6 class="step-text">Experience</h6>
+        </div>
+        <div class="progress-step" id="step-statutory">
+            <div class="step">
+                <button type="button" class=" text-body text-button border-opacity-0" onclick="nextTab('#review')"><p>5</p></button>
+            </div>
+            <h6 class="step-text">Statutory</h6>
+        </div>
+
+
+        <div class="progress-step d-flex-column">
+            <div class="step">
+                <button type="button" class=" text-body text-button border-opacity-0"><p>6</p></button>
+
+            </div>
+
+            <h6 class="step-text">Review</h6>
+
+        </div>
+
+        @*<div class="progress-step" id="step-statutory">
+            <div class="step" id="submitbtn">
+                <button type="button" class=" text-body text-button border-opacity-0 " onclick="bt()"><p>Submit</p></button>
+            </div>
+        </div>*@
+    </div>
+
+    <div class="tab-content mb-3" id="applicationContent">
+        <div class=" container bg-light tab-pane fade show active p-5" id="profile" role="tabpanel">
+            <partial name="Application\_Profile" />
+        </div>
+        <div class=" container bg-light  tab-pane fade p-5" id="education" role="tabpanel">
+            <partial name="Application\_Education" />
+        </div>
+        <div class=" container bg-light tab-pane fade p-5" id="certifications" role="tabpanel">
+            <partial name="Application\_Certifications" />
+        </div>
+        <div class=" container bg-light tab-pane fade p-5" id="experience" role="tabpanel">
+            <partial name="Application\_Experience" />
+        </div>
+        <div class=" container bg-light tab-pane fade p-5" id="statutory" role="tabpanel">
+            <partial name="Application\_Statutory" />
+        </div>
+        <div class=" container tab-pane fade p-5" id="review" role="tabpanel">
+            <partial name="Application\_Review" />
+        </div>
+    </div>
+</div>

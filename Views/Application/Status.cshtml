@@ -1,0 +1,102 @@
+﻿@{
+    ViewData["Title"] = "Status";
+}
+
+
+<div class="container my-4">
+    <h4 class="font-weight-light small"> ACTIVE APPLICATIONS STATUS</h4>
+    <div class="">
+        <div class="border p-4 ">
+            <h5>Current | 3</h5>
+            <p>
+                You've successfully applied for the positions shown below and these are in <u>review</u>. We'll contact you if your qualifications match the job.
+            </p>
+
+            <hr />
+            <div class="d-flex justify-content-between  align-items-center">
+
+                <span class="font-bold"><i class="fa-solid fa-circle-info"></i> Job Detail</span>
+                <span><i class="fa-solid fa-arrow-down"></i> Date Applied</span>
+            </div>  <hr />
+
+            <div class="d-flex flex-column p-3 border bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h6 class="me-3" style="color: #0064BF">
+                            <a asp-controller="Application" asp-action="Status">Software developer</a>
+                        </h6>
+                        <h6 class="text-secondary">4533453</h6>
+                        <i class="text-secondary">KPA7</i>
+                    </div>
+
+                    <h6 class="text-end text-secondary">
+                        12/04/2023
+                    </h6>
+                    <h6 class="text-end small accepted-text">
+                        Status: ACCEPTED
+                    </h6>
+                </div>
+
+            </div>
+            <br />
+            <div class="d-flex flex-column p-3 border bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h6 class="me-3" style="color: #0064BF">ICT OFFICER II</h6>
+                        <h6 class="text-secondary">3535354</h6>
+                        <i class="text-secondary">KPA5  </i>
+                    </div>
+
+                    <h6 class="text-end text-secondary">
+                        12/04/2023
+                    </h6>
+                    <h6 class="text-end  small denied-text">
+                        Status: DENIED
+                    </h6>
+                </div>
+
+            </div>
+            <br />
+            <div class="d-flex flex-column p-3 border bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h6 class="me-3" style="color: #0064BF">ICT OFFICER II</h6>
+                        <h6 class="text-secondary">3535354</h6>
+                        <i class="text-secondary">KPA5  </i>
+                    </div>
+
+                    <h6 class="text-end text-secondary">
+                        12/04/2023
+                    </h6>
+                    <h6 class="text-end  small interview-text ">
+                        Status: INTERVIEW
+                    </h6>
+                </div>
+
+            </div>
+            <br />
+            <div class="d-flex flex-column p-3 border bg-light">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="">
+                        <h6 class="me-3" style="color: #0064BF">ICT OFFICER II</h6>
+                        <h6 class="text-secondary">3535354</h6>
+                        <i class="text-secondary">KPA5  </i>
+                    </div>
+
+                    <h6 class="text-end text-secondary">
+                        12/04/2023
+                    </h6>
+                    <h6 class="text-end small inreview-text">
+                        Status: IN-REVIEW
+                    </h6>
+                </div>
+
+            </div>
+            <br />
+
+        </div>
+    </div>
+
+</div>
+
+

@@ -1,0 +1,91 @@
+﻿
+@model web.Models.Application.CertificationsViewModel
+
+
+<div class="container review-container bg-light h-100 mt-3" style="min-height: 100vh">
+    <h2 class="text-center" style="color:#1d50a4">Review & Submit</h2>
+    <h6 class="text-center">Review your application</h6>
+    <!-- Personal Information -->
+    <div class="section">
+        <h3>Personal Information</h3>
+        <p><strong>First Name:</strong> John</p>
+        <p><strong>Last Name:</strong> Doe</p>
+        <p><strong>Email:</strong> john.doe@example.com</p>
+        <p><strong>National ID:</strong> 123456789</p>
+        <p><strong>Date of Birth:</strong> January 1, 1990</p>
+    </div>
+
+    <!-- Education/Academics -->
+    <div class="section">
+        <h3>Education/Academics</h3>
+        <p><strong>School Name:</strong></p>
+        <p><strong>Course Name:</strong> Computer Science</p>
+        <p><strong>Start Date:</strong> August 1, 2010</p>
+        <p><strong>End Date:</strong> May 15, 2014</p>
+    </div>
+
+    <!-- Professional Certifications -->
+    <div class="section">
+        <h3>Professional Certifications</h3>
+        <p><strong>Primary School Certificate:</strong> Uploaded</p>
+        <p><strong>Secondary School Certificate:</strong> Uploaded</p>
+        <p><strong>University Certificate:</strong> </p>
+    </div>
+
+    <!-- Professional Experience -->
+    <div class="section">
+        <h3>Professional Experience</h3>
+        <p><strong>Company Name:</strong> Example Corp</p>
+        <p><strong>Position:</strong> Software Developer</p>
+        <p><strong>Country:</strong> Kenya</p>
+        <p><strong>City:</strong> Nairobi</p>
+        <p><strong>Start Date:</strong> June 1, 2014</p>
+        <p><strong>End Date:</strong> Present</p>
+    </div>
+
+    <!-- Statutory Requirements -->
+    <div class="section">
+        <h3>Statutory Requirements</h3>
+        <p><strong>Good Conduct Certificate:</strong> Uploaded</p>
+        <p><strong>HELB Clearance Certificate:</strong> Uploaded</p>
+        <p><strong>Tax Compliance Certificate:</strong> Uploaded</p>
+        <p><strong>Ethics & Anti-Corruption Clearance:</strong> Uploaded</p>
+        <p><strong>Credit Report:</strong> Uploaded</p>
+    </div>
+
+
+    <div class="mt-4">
+        <button type="button" class="btn btn-secondary" onclick="prevTab('#statutory')">Back</button>
+        <button type="button" class="btn btn-success" onclick="" data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
+    </div>
+
+
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <i class="fa-regular fa-circle-check text-center fa-lg mx-2" style="color: #0aae85;"></i>
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Application Successful</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Your application for the role has been submitted successfully!</p>
+                    <p>We will review your application and get back to you soon.</p>
+                    <p>
+                        <a asp-controller="Application" asp-action="Tracking">Go to Application Tracking</a>
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                        <a asp-controller="Home">Close</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

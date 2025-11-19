@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CityGrid Transport Consultants - @ViewData["Title"]</title>
+
+    <!-- Libraries -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/images/samweb15.jpg" />
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container-fluid">
+            <!-- Logo + Title -->
+            <a asp-controller="Home" class="navbar-brand d-flex align-items-center">
+                <img src="~/images/samweb15.jpg" alt="Logo" class="img-fluid" style="max-height:70px;" />
+                <span class="ms-2 text-maroon fw-bold" style="font-size:1.5rem;">CityGrid Transport Consultants</span>
+            </a>
+
+            <!-- Hamburger Button for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="" asp-action="">
+                            <i class="fa-solid fa-house"></i> Home
+                        </a>
+                    </li>
+
+                    <!-- Dropdown: Our Services -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fa-solid fa-laptop"></i> Our Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexpt">Public Transport</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indextps">Traffic Planning</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexam">Active Mobility</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexem">E-Mobility</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexssd">Streetscape Design</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indextp">Transport Policy</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown: Publication -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fa-regular fa-newspaper"></i> Publication
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="index">Blogs</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexg">Articles</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indext">Thesis</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexcpts">Concepts</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Dropdown: Our Enterprise -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fa-regular fa-building"></i> Our Enterprise
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexus">About Us</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexwwd">What We Do</a></li>
+                            <li><a class="dropdown-item" asp-controller="vacancies" asp-action="indexop">Our Partners</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="vacancies" asp-action="indexc">
+                            <i class="fa-solid fa-phone"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Socials -->
+                <div class="ms-lg-3">
+                    <partial name="_Socials" />
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Back to Top -->
+    <a href="#" id="backToTop" class="back-to-top btn btn-maroon rounded-circle">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- Main Body -->
+    <main role="main" class="flex-grow-1">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <partial name="_Footer" />
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/font-awesome/js/all.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <!-- Back to Top Script -->
+    <script>
+        let backToTop = document.getElementById("backToTop");
+        window.addEventListener("scroll", function () {
+            backToTop.style.display = (window.scrollY > 200) ? "block" : "none";
+        });
+    </script>
+
+    <!-- Custom Colors -->
+    <style>
+        .text-maroon {
+            color: #800000;
+        }
+
+        .btn-maroon {
+            background-color: #800000;
+            color: white;
+        }
+
+            .btn-maroon:hover {
+                background-color: #600000;
+            }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            padding: 10px 12px;
+            z-index: 1050;
+        }
+    </style>
+
+</body>
+</html>

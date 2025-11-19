@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewData["Title"] = "Manage Jobs";
+}
+
+<h2>Manage Jobs</h2>
+
+<div class="mb-3">
+    <a asp-action="AddJob" class="btn btn-primary">Add New Job</a>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">
+            @TempData["SuccessMessage"]
+        </div>
+    }
+
+</div>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Job Title</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Posted On</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var job in Model)
+        {
+            <tr>
+                <td>@job.JobTitle</td>
+                <td>@job.JobDescription</td>
+                <td>@job.Location</td>
+                <td>@job.PostedDate.ToShortDateString()</td>
+                <td>@(job.IsOpen ? "Open" : "Closed")</td>
+                <td>
+
+                    <a asp-action="EditJob" asp-route-id="@job.JobId" class="btn btn-warning btn-sm">Edit</a>
+                    <form asp-action="DeleteJob" asp-route-id="@job.JobId" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+                </td>
+            </tr>
+        }
+
+    </tbody>
+</table>
+@section Scripts {
+    <!-- Include jQuery and validation scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}

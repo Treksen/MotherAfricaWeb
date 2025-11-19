@@ -1,0 +1,177 @@
+﻿@using web.Models.Admin;
+
+@model IndexModel;
+
+@{
+    ViewData["Title"] = "Admin Dashboard";
+
+}
+
+    
+    <h3 class="text-center mb-4">@Model.WelcomeMessage</h3>
+
+    
+        <div class="container">
+    <!-- Dashboard Info Cards -->
+    <div class="row">
+        <div class="container">
+            <div class="row">
+   
+        <!-- Total Jobs Card -->
+        <div class="col-md-4">
+            <div class="card text-center mb-4 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-primary">External Jobs</h4>
+                    <p class="card-text display-4">@Model.JobCount</p>
+                    <!-- Manage Jobs Button -->
+            <a asp-action="ManageJobs" class="btn btn-primary mb-2">View</a>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Total Users Card -->
+        <div class="col-md-4">
+            <div class="card text-center mb-4 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-success">Registered Users</h4>
+                    <p class="card-text display-4">@Model.TotalUsersRegistered</p>
+                    <!-- Manage Users Button -->
+            <a asp-action="ManageUsers" class="btn btn-info mb-2">View</a>
+                </div>
+            </div>
+        </div>
+           <!-- Total Jobs Card -->
+        <div class="col-md-4">
+             <div class="card text-center mb-4 shadow-sm">
+                  <div class="card-body">
+                            <h4 class="card-title text-primary">Internal Jobs</h4>
+                            <p class="card-text display-4">@Model.JobCount</p>
+                            <!-- Manage Jobs Button -->
+                            <a asp-action="ManageJobs" class="btn btn-primary mb-2">View</a>
+
+                   </div>
+             </div>
+        </div>
+
+        <!-- Total Applications Card -->
+        <div class="col-md-4">
+            <div class="card text-center mb-4 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title text-danger">Total Applications</h4>
+                    <p class="card-text display-4">@Model.TotalApplications</p>
+                    <!-- View Applications Button -->
+            <a asp-action="ViewApplications" class="btn btn-secondary mb-2">View</a>
+                </div>
+            </div>
+        </div>
+                
+        </div>
+        </div>
+    </div>
+
+    </div>
+
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <h4 class="text-center">Gender Distribution of Applicants</h4>
+         <canvas id="genderChart" 
+                data-male="@Model.TotalMaleApplicants" 
+                data-female="@Model.TotalFemaleApplicants"></canvas>
+    </div>
+</div>
+   
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    var ctx = document.getElementById('genderChart').getContext('2d');
+    var genderChart = new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: ['Male', 'Female'],
+            datasets: [{
+                label: 'Gender Distribution',
+                data: [TotalMaleApplicants=27, TotalFemaleApplicants=17],
+                backgroundColor: ['#007bff', '#ff5733'],
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    position: 'top',
+                },
+                tooltip: {
+                    callbacks: {
+                        label: function (tooltipItem) {
+                            return tooltipItem.label + ': ' + tooltipItem.raw + ' Applicants';
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+<!-- Age Distribution Pie Chart -->
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <h4 class="text-center"></h4>
+            <canvas id="ageChart"></canvas>
+        </div>
+    </div>
+
+@section Scripts {
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        var ctx = document.getElementById('ageChart').getContext('2d');
+
+        // Example data for age groups; replace with actual data
+        var ageData = {
+            labels: ['18-25', '26-35', '36-45', '46-55', '56+'],
+            datasets: [{
+                label: 'Age Distribution',
+                data: [AgeGroup18To25= 22,AgeGroup26To35= 32, AgeGroup36To45= 17, AgeGroup46To55= 9, Model.AgeGroup56Plus= 3],
+                backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+                borderWidth: 1
+            }]
+        };
+
+        var ageChart = new Chart(ctx, {
+            type: 'pie',
+            data: ageData,
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function (tooltipItem) {
+                                return tooltipItem.label + ': ' + tooltipItem.raw + ' Applicants';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+    // Initialize the chart when the page loads
+    document.addEventListener('DOMContentLoaded', function () {
+        initializeAgeChart();
+    });
+    </script>
+}
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="~/js/genderChart.js"></script>
+
+
+    

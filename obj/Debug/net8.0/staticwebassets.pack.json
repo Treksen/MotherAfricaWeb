@@ -1,0 +1,809 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\web.bundle.scp.css",
+      "PackagePath": "staticwebassets\\web.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\Emob1.jpg",
+      "PackagePath": "staticwebassets\\images\\Emob1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\TransportM.mp4",
+      "PackagePath": "staticwebassets\\images\\TransportM.mp4"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\abus1.jpg",
+      "PackagePath": "staticwebassets\\images\\abus1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\abus2.jpg",
+      "PackagePath": "staticwebassets\\images\\abus2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\abus3.jpg",
+      "PackagePath": "staticwebassets\\images\\abus3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\abus4.jpg",
+      "PackagePath": "staticwebassets\\images\\abus4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\activem.jpg",
+      "PackagePath": "staticwebassets\\images\\activem.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\activem1.jpg",
+      "PackagePath": "staticwebassets\\images\\activem1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\activem2.jpg",
+      "PackagePath": "staticwebassets\\images\\activem2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\activem3.jpg",
+      "PackagePath": "staticwebassets\\images\\activem3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\articles1.jpg",
+      "PackagePath": "staticwebassets\\images\\articles1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\articles2.jpg",
+      "PackagePath": "staticwebassets\\images\\articles2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\articles3.jpg",
+      "PackagePath": "staticwebassets\\images\\articles3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\articles4.jpg",
+      "PackagePath": "staticwebassets\\images\\articles4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\blog1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\blog2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\blog3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\blog4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\blog5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog5.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\consepts.jpg",
+      "PackagePath": "staticwebassets\\images\\consepts.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\emob2.jpg",
+      "PackagePath": "staticwebassets\\images\\emob2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\emob3.jpg",
+      "PackagePath": "staticwebassets\\images\\emob3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners1.jpg",
+      "PackagePath": "staticwebassets\\images\\partners1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners2.jpg",
+      "PackagePath": "staticwebassets\\images\\partners2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners3.jpg",
+      "PackagePath": "staticwebassets\\images\\partners3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners4.jpg",
+      "PackagePath": "staticwebassets\\images\\partners4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners5.jpg",
+      "PackagePath": "staticwebassets\\images\\partners5.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners6.jpg",
+      "PackagePath": "staticwebassets\\images\\partners6.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners7.jpg",
+      "PackagePath": "staticwebassets\\images\\partners7.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\partners8.jpg",
+      "PackagePath": "staticwebassets\\images\\partners8.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\policy1.jpg",
+      "PackagePath": "staticwebassets\\images\\policy1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\policy2.jpg",
+      "PackagePath": "staticwebassets\\images\\policy2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\pubtrans1.jpg",
+      "PackagePath": "staticwebassets\\images\\pubtrans1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\pubtrans2.jpg",
+      "PackagePath": "staticwebassets\\images\\pubtrans2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\pubtrans3.jpg",
+      "PackagePath": "staticwebassets\\images\\pubtrans3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\pubtrans4.jpg",
+      "PackagePath": "staticwebassets\\images\\pubtrans4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\pubtrans5.jpg",
+      "PackagePath": "staticwebassets\\images\\pubtrans5.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb1.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb10.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb10.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb11.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb11.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb12.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb12.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb13.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb13.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb14.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb14.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb15.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb15.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb16.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb16.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb17.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb17.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb18.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb18.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb3.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb4.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb5.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb5.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb6.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb6.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb7.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb7.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb8.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb8.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\samweb9.jpg",
+      "PackagePath": "staticwebassets\\images\\samweb9.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\ssd1.jpg",
+      "PackagePath": "staticwebassets\\images\\ssd1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\ssd2.jpg",
+      "PackagePath": "staticwebassets\\images\\ssd2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\thesis1.jpg",
+      "PackagePath": "staticwebassets\\images\\thesis1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\thesis2.jpg",
+      "PackagePath": "staticwebassets\\images\\thesis2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\thesis3.jpg",
+      "PackagePath": "staticwebassets\\images\\thesis3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\thesis4.jpg",
+      "PackagePath": "staticwebassets\\images\\thesis4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\traffic1.jpg",
+      "PackagePath": "staticwebassets\\images\\traffic1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\traffic2.jpg",
+      "PackagePath": "staticwebassets\\images\\traffic2.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\traffic3.jpg",
+      "PackagePath": "staticwebassets\\images\\traffic3.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\traffic4.jpg",
+      "PackagePath": "staticwebassets\\images\\traffic4.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\images\\wwd1.jpg",
+      "PackagePath": "staticwebassets\\images\\wwd1.jpg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\js\\AgeDistributionChart.js",
+      "PackagePath": "staticwebassets\\js\\AgeDistributionChart.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\js\\genderChart.js",
+      "PackagePath": "staticwebassets\\js\\genderChart.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.cjs.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.js.map",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.umd.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.umd.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.umd.js.map",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.umd.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\chart.umd.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\chart.umd.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\helpers.cjs.map",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\helpers.cjs.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\helpers.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\helpers.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\helpers.js.map",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\helpers.js.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\helpers.min.js",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\helpers.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\index.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\index.d.ts"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\index.umd.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\index.umd.d.ts"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\chart.js\\types.d.ts",
+      "PackagePath": "staticwebassets\\lib\\chart.js\\types.d.ts"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\all.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\all.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\brands.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\brands.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\brands.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\fontawesome.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\regular.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\regular.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\regular.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\solid.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\solid.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\solid.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\svg-with-js.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v4-shims.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v4-shims.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\css\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\css\\v5-font-face.min.css"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\all.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\all.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\all.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\brands.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\brands.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\brands.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\conflict-detection.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\conflict-detection.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\fontawesome.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\fontawesome.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\newFile.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\newFile.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\regular.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\regular.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\regular.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\solid.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\solid.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\solid.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\v4-shims.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\js\\v4-shims.min.js",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\js\\v4-shims.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\sprites\\brands.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\brands.svg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\sprites\\regular.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\regular.svg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\sprites\\solid.svg",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\sprites\\solid.svg"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\lib\\font-awesome\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Beautiful Chaos.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Beautiful Chaos.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Dicing With Death.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Dicing With Death.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Konza Technopolis.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Konza Technopolis.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Mobility Turn.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Mobility Turn.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Pedal To Class.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Pedal To Class.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Politics.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Politics.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\The Transport Tango.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\The Transport Tango.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Traffic Congestion.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Traffic Congestion.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Transport Planning.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Transport Planning.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Urban Design.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Urban Design.pdf"
+    },
+    {
+      "Id": "E:\\Treks\\SKILLBRIDGE\\My Websites\\Mother-Africa-Web\\web\\wwwroot\\pdfs\\Urban Planning.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\Urban Planning.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.web.props",
+      "PackagePath": "build\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.web.props",
+      "PackagePath": "buildMultiTargeting\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.web.props",
+      "PackagePath": "buildTransitive\\web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

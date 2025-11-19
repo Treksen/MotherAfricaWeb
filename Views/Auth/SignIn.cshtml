@@ -1,0 +1,39 @@
+﻿@using web.Models.Auth;
+
+@model SignInModel;
+
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<section>
+    <div class="login-page ">
+        <div class="form shadow-sm bg-white border">
+            <form class="login-form " asp-controller="auth" asp-action="signin" method="post">
+                <h3>Sign in </h3>
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input asp-for=Username type="text" placeholder="username" />
+                <input asp-for=Password type="password" class="my-3" placeholder="password" />
+                <button class="signin-button">Sign in </button>
+                <p class="message">
+                    KPA Employee?
+                    <a asp-controller="auth" asp-action="signInEmployee" style="color: #1d50a4;">
+                        Sign in here
+                    </a>
+                </p>
+                <p class="message">
+                    Registered?
+                    <a asp-controller="auth" asp-action="profile" style="color: #1d50a4;">
+                        Welcome
+                    </a>
+                </p>
+                 <p class="message">
+                    Not registered?
+                    <a asp-controller="auth" asp-action="register" style="color: #1d50a4;">
+                        Register now
+                    </a>
+                </p>
+            </form>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,27 @@
+﻿@model web.Models.Application.EducationViewModel
+
+<h3>Education</h3>
+<form class="editable-form">
+    <div class="form-group">
+        <label for="Degree">Degree</label>
+        <input type="text" class="form-control" id="Degree" name="Degree" />
+    </div>
+    <div class="form-group">
+        <label for="Institution">Institution</label>
+        <input type="text" class="form-control" id="Institution" name="Institution" />
+    </div>
+    <div class="form-group">
+        <label for="datestart">Begining date</label>
+        <input type="date" class="form-control" id="datestart" name="DOB" />
+    </div>
+    <div class="form-group">
+        <label for="dateend">Ending date</label>
+        <input type="date" class="form-control" id="dateend" name="dateend" />
+    </div>
+    <div class="mt-5">
+        <button type="button" class="btn btn-secondary" onclick="prevTab('#profile')">Back</button>
+        <button type="button" class="btn btn-primary" onclick="nextTab('#certifications')">Next</button>
+
+    </div>
+</form>
+

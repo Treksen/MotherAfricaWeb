@@ -1,0 +1,35 @@
+﻿@{
+    var username = Context.Session.GetString("Username");
+}
+
+<div class="d-flex flex-row justify-content-center align-items-center ">
+    @if (string.IsNullOrEmpty(username))
+    {
+        <a class="mx-2 btn-sm" style="color: black; text-decoration: none" asp-controller="auth" asp-action="signin"><span><i class="fa-brands fa-facebook"></i> Facebook</span></a>
+    }
+    else
+    {
+        <a class="mx-2 btn-sm" style="color: black; text-decoration: none" asp-controller="auth" asp-action="signin"> Sign out </a>
+        <a asp-controller="auth" asp-action="profile" style="color: #1d50a4" title="@username">
+            <i class="fa-2x fa-solid fa-circle-user"></i>
+        </a>
+    }
+    <a class="mx-2 btn-sm" style="color: black; text-decoration: none" asp-controller="admin" asp-action="Index"><span><i class="fa-brands fa-x-twitter"></i> </span></a>
+    <a class="mx-2 btn-sm" style="color: black; text-decoration: none" asp-controller="admin" asp-action="Index"><span><i class="fa-brands fa-instagram"></i> instagram</span></a>
+    
+</div>
+
+@* <nav class="nav float-end">
+    @if (string.IsNullOrEmpty(username))
+    {
+        <a asp-controller="auth" asp-action="signin" class="nav-item text-black">Sign In</a>
+    }
+    else
+    {
+        <a asp-controller="auth" asp-action="signout" class="nav-item text-black">Sign Out</a>
+        <a asp-controller="auth" asp-action="profile" class="nav-item text-black" title="@username">
+            <i class="fa-2x fa-solid fa-circle-user"></i>
+        </a>
+        </nav>}
+    } *@
+<partial name="_Socials" />

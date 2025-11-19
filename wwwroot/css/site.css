@@ -1,0 +1,802 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html {
+  font-size: 13px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+:root {
+    --bs-primary: #007bff; /* Replace with your desired color */
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  border: none !important;
+}
+
+
+.review-container {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+}
+html {
+    position: relative;
+    min-height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+main{
+    min-height: 100vh;
+}
+
+.search-input {
+    border: none;
+    background-color: #f2f2f2;
+}
+    .search-input:focus {
+        border: none !important;
+    }
+.carousel-item img{
+    width: 100vw;
+}
+.wrapper {
+    width: 100%;
+    height: 45vh;
+    /* Add the background image */
+    /*    //background-image: url('/images/careers_bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;*/
+    color: white;
+}
+.wrapper div {
+        width: 100vw;
+        height: inherit;
+        
+}
+
+
+.job-cards{
+    background-color: rgba(0,0,0,0.05)
+}
+.remove-experience {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px; /* Adjust font size if needed */
+    padding: 0;
+    margin-bottom: 10px; /* Add spacing if needed */
+}
+
+.remove-experience:hover {
+        text-decoration: none; /* Remove underline on hover */
+}
+.modal-footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.text-button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: 1rem; /* Adjust font size if needed */
+    color: #007bff;
+    cursor: pointer;
+}
+
+    .text-button:focus {
+        outline: none;
+    }
+
+nav a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+
+
+    .contact-info ul {
+        list-style-type: none; /* Remove bullet points */
+        padding-left: 0; /* Remove default padding */
+    }
+
+    .contact-info li {
+        margin-bottom: 10px; /* Space between list items */
+        color: white
+    }
+
+        .contact-info li:last-child {
+            margin-bottom: 0; /* Remove bottom margin from last item */
+        }
+
+    .contact-info a {
+        
+        text-decoration: none; /* Remove underline from links */
+    }
+
+        
+.search-jobs-btn {
+   
+    outline: 0;
+    width: 80px;
+    padding: 5px;
+    color: #FFFFFF;
+    background-color: #1A47BA;
+
+}
+h1, h2, h3, h4 {
+    color: #1A47BA;
+}
+.step button{
+    background-color: transparent !important;
+}
+.btn-primary{
+    border-block-color: transparent;
+}
+.why-kpa {
+    width: 100%;
+    background-color: #1A47BA;
+    height: 40vh;
+    text-align: center;
+    padding: 3rem;
+    margin: auto auto;
+}
+
+.tovacancies_button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button {
+    background-color: #1A47BA !important;
+    outline: none;
+    border: 1px transparent;
+    color: white;
+}
+
+.info {
+    background-color: #fff;
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 3rem;
+    margin: auto auto;
+}
+.search-input::placeholder {
+    color: gray; /* Change placeholder text color */
+    font-size: 14px; /* Change placeholder text size */
+    font-style: italic; /* Optional: Change font style */
+}
+
+.web {
+    width: 100%
+}
+
+.nav {
+    background-color: #fff;
+}
+.detail-main{
+    margin:5rem;
+}
+
+.logo-image {
+    height: 60px;
+    width: 60px;
+}
+
+.web {
+    /* height:100vw; /* find better ways of managing spaces */
+    display: flex;
+    flex-direction: column;
+}
+
+/*SIGN IN STYLING*/
+.login-page {
+    width: 400px;
+    padding: 20px 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    
+}
+
+.form input, input {
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    border-radius: 0px !important;
+   
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+    .form button {
+        text-transform: uppercase;
+        background-color: #1A47BA;
+        outline: 0;
+        width: 100%;    
+        border: 0;
+        padding: 15px;
+        color: #FFFFFF;
+        font-size: 14px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+
+
+.form .message {
+        margin: 15px 0 0;
+        color: #b3b3b3;
+        font-size: 12px;
+}
+
+.form .message a {
+            color: #4CAF50;
+            text-decoration: none;
+}
+.vacancies-wrapper {
+    background-color: #f1f5f7;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.container:before, .container:after {
+        content: "";
+        display: block;
+        clear: both;
+}
+
+.container .info {
+        margin: 50px auto;
+        text-align: center;
+}
+
+.carousel-control-prev{
+    background-color: transparent;
+}
+
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+
+.container .info span {
+            color: #4d4d4d;
+            font-size: 12px;
+}
+
+.container .info span a {
+                color: #000000;
+                text-decoration: none;
+}
+
+.container .info span .fa {
+                color: #EF3B3A;
+}
+
+
+/*FOOTER STYLING*/
+.site-footer {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1d50a4;
+    height: max-content;
+    padding: 2rem;
+    font-size: 15px;
+    line-height: 24px;
+   
+}
+
+
+.step-text{
+    margin-top: 5px !important;
+    font-size: 14px !important;
+    color: #6c757d !important; /* Adjust color as needed */
+}
+
+
+.footer-icons li {
+    margin-bottom: 10px;
+}
+
+.footer-icons i {
+    margin-right: 10px; 
+}
+
+.copyright-container{
+    background-color: #153893;
+    
+
+
+}
+.copyright-container .row{
+    padding: 2rem;
+}
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+            margin: 20px 0
+ }
+
+.site-footer h6 {
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        letter-spacing: 2px
+}
+
+.site-footer a {
+        color: #fff;
+}
+
+.site-footer a:hover {
+            color: #3366cc;
+            text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+        display: block
+}
+
+   
+.footer-links a:active, .footer-links a:focus, .footer-links a:hover {
+            color: #fff;
+            text-decoration: none;
+}
+
+.footer-links.inline li {
+        display: inline-block
+}
+
+
+
+.site-footer .social-icons a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: 6px;
+        margin-right: 0;
+        border-radius: 100%;
+      
+}
+
+.copyright-text {
+    margin: 0
+}
+
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    color: white;
+}
+
+.social-icons li {
+        display: inline-block;
+        margin-bottom: 4px
+}
+
+.social-icons li.title {
+            margin-right: 15px;
+            text-transform: uppercase;
+            color: #96a2b2;
+            font-weight: 700;
+            font-size: 13px
+}
+.procces-card-body{
+    min-height: 75vh
+}
+
+.social-icons a {
+    
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+    .social-icons a:active, .social-icons a:focus, .social-icons a:hover {
+        color: #fff;
+        background-color: #000000;
+    }
+.card-container {
+    width: 100vw;
+    min-height: 100vh;
+    padding-top: 8px;
+}
+
+.profile-details p{
+    color: darkgray;
+}
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #4CAF50;
+}
+
+.social-icons a.twitter:hover {
+        background-color: #4CAF50;
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #4CAF50;
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #4CAF50;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 300px; /* Adjust based on your design needs */
+}
+
+.section-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.info, .filling-vacancies {
+    padding: 2rem;
+}
+
+.filling-vacancies {
+    background-color: #fff;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+}
+
+.info {
+    padding: 3rem 0;
+}
+
+.section-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #007bff;
+}
+
+.info p {
+    font-size: 1rem;
+/*    line-height: 1.6;*/
+    color: #333;
+}
+
+.info.bg-light {
+    background-color: #f8f9fa;
+    border-radius: 0.5rem;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+.filling-vacancies {
+    background-color: #fff;
+    padding: 3rem 1rem;
+}
+
+
+    .filling-vacancies h2 {
+        font-size: 1.75rem;
+        color: #007bff;
+        margin-bottom: 2rem;
+    }
+
+    .filling-vacancies p {
+        font-size: 1rem;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .filling-vacancies img {
+        max-width: 100%;
+        max-height: 100%;
+     
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .btn-custom:hover {
+        background-color: #0056b3;
+        color: #fff;
+    }
+
+.progress-step {
+    padding-top: 1rem;
+    position: relative;
+    text-align: center;
+    
+}
+
+    .progress-step:not(:last-child)::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        width: 100%; /* Full width of the space between steps */
+        height: 4px; /* Adjust line thickness */
+        background-color: #ddd; /* Default line color */
+        transform: translateY(-50%);
+        z-index: 0;
+    }
+
+.progress-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 4px; /* Line thickness */
+    background-color: #ddd; /* Green for completed lines */
+    z-index: 0;
+    transform: translateY(-50%);
+}
+
+.review, .application-submit{
+    background-color: transparent;
+    color: #4caf50;
+}
+.progress-step.completed:not(:last-child)::after {
+    background-color: transparent; /* Hide the line after completed steps */
+}
+
+.progress-step.current:not(:last-child)::after {
+    background-color: #007bff; /* Blue for current line */
+}
+.submitbtn {
+    width: 50px;
+    height: 50px;
+}
+
+.progress-step .step {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #ddd;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.progress-container:last-child {
+    background-color: red;
+    color: #1d50a4;
+}
+
+.progress-step.completed .step {
+    /*background-color: #4caf50;*/ /* Green for completed steps */
+    background-color: #1d50a4;
+}
+
+#submitbtn{
+    background-color: white;
+    
+}
+
+
+#submitbtn button p{
+    color: #1d50a4;
+}
+.progress-step.incomplete .step {
+    background-color: #ffeb3b; /* Yellow for incomplete steps */
+}
+
+.progress-step.current .step {
+    background-color: #007bff; /* Blue for the current step */
+}
+
+.step p {
+    margin: 0;
+    color: white;
+    font-size:18px;
+    font-weight:900;
+}
+
+.progress-step:last-child::after {
+    content: none;
+}
+
+
+
+
+/*.progress-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-step {
+    text-align: center;
+    position: relative;
+    flex: 1;
+}
+
+    .progress-step::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #ddd;
+        z-index: -1;
+    }
+
+    .progress-step:first-child::before {
+        left: 50%;
+        width: 50%;
+    }
+
+    .progress-step:last-child::before {
+        width: 50%;
+    }
+
+    .progress-step .step {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ddd;
+        display: inline-block;
+        line-height: 20px;
+        color: white;
+        position: relative;
+        z-index: 1;
+    }
+
+    .progress-step.completed .step {
+        background-color: green;
+    }
+*/
+
+
+.box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #f8f9fa;
+    min-height: 200px; /* Adjust as needed */
+}
+
+
+
+ul {
+    list-style-type: none; /* No bullets */
+}
+
+
+.accepted {
+    background-color: #5CB85C;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px
+}
+
+.inreview {
+    background-color: #FFE80A;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px
+}
+.declined {
+    background-color: #EA0B2A;
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+}
+
+
+
+
+.progress-bar {
+    transition: width 0.6s ease;
+}
+.status-link {
+    cursor: pointer;
+    text-decoration: none;
+   
+    font-weight:600;
+}
+
+.editable-form {
+    background-color: #02B2E3;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+

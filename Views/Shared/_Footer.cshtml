@@ -1,0 +1,107 @@
+﻿
+<!-- Site footer -->
+<footer style="
+              background-color: #800000;
+              background-blend-mode: darken;
+              background-size: cover;
+              background-position: top center;
+              background-repeat: no-repeat;
+              width: 100%;
+              color: white;
+              font-family: Tahoma;">
+
+    <!-- Main Content -->
+    <div class="container-fluid py-5 ">
+        <div class="row">
+
+            <!-- About Section -->
+            <div class="col-md-3 align-items-center text-center">
+                <a asp-controller="Home" style="text-decoration: none; color: #fff;">
+                    <img src="~/images/samweb15.jpg" alt="Logo"
+                         style="width: 120px; height: auto; object-fit: contain; margin-right: 15px;" />
+                </a>
+                <h3 style="margin: 0; color: #fff;">CityGrid Transport Consultants</h3>
+            </div>
+
+            <!-- Our Services -->
+            <div class="col-md-3">
+                <h6 class="mb-3" style="font-size:23px; color: #000;"><strong>Our Services</strong></h6>
+                <ul class="list-unstyled footer-icons mb-3 footer-links">
+                    <li><a asp-controller="vacancies" asp-action="indexpt">Public Transport</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indextps">Traffic Planning and Survey</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexam">Active Mobility</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexem">E-Mobility</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexssd">Streetscape Design</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indextp">Transport Policy</a></li>
+                </ul>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="col-md-3">
+                <h6 class="mb-3" style="font-size:23px; color: #000;"><strong>Quick Links</strong></h6>
+                <ul class="list-unstyled footer-icons mb-3 footer-links">
+                    <li><a asp-controller="home" asp-action="index">Home</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexus">About Us</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexwwd">What We Do</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexop">Our Partners</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexpub">Publication</a></li>
+                    <li><a asp-controller="vacancies" asp-action="indexc">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <style>
+                .footer-links a {
+                    color: #fff;
+                    text-decoration: none;
+                    font-size: 20px;
+                    transition: color 0.3s ease, padding-left 0.3s ease;
+                }
+
+                    .footer-links a:hover {
+                        color: #000000; /* maroon on hover */
+                        padding-left: 8px; /* subtle slide effect */
+                        text-decoration: underline;
+                    }
+            </style>
+
+
+            
+
+            <!-- Get in Touch -->
+            <div class="col-md-3">
+                <h6 class="mb-3" style="font-size:23px; color: #000;"><strong>Get In Touch</strong></h6>
+                <ul class="list-unstyled footer-icons mb-3" style="font-size:20px; color: #fff;">
+                    <li><i class="fas fa-building px-2"></i>CityGrid Transport Consultants</li>
+                    <li>
+                        <i class="fas fa-phone-alt px-2"></i> Call:
+                        <a href="tel:+254-740-220-889" class="text-light">+254-740-220-889</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope px-2"></i> Email:
+                        <a href="mailto:citygridtrans@gmail.com" class="text-light"> info@citygridtrans.com </a>
+                    </li>
+                </ul>
+                <!-- Socials Partial -->
+                <div>
+                    <partial name="_Socials" />
+                </div>
+               
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center py-3" style="background-color: rgba(0, 0, 0, 0.6);">
+        <p class="mb-0">
+            CityGrid Transport Consultants © @DateTime.Today.Year  | All Rights Reserved | ISO 9001:2015
+        </p>
+        <div class="mt-2">
+            <a href="#" class="text-light ms-3">Disclaimer</a>
+            <a href="#" class="text-light ms-3">Privacy Policy</a>
+        </div>
+    </div>
+
+</footer>
+

@@ -1,0 +1,38 @@
+﻿@model web.Models.Application.StatutoryViewModel
+
+<h3>Statutory Requirements</h3>
+<form class="editable-form">
+    <div class="form-group">
+        <label for="IDNumber">ID Number</label>
+        <input type="text" class="form-control" id="IDNumber" name="IDNumber" />
+    </div>
+    <div class="form-group">
+        <label for="TaxNumber">Tax Number</label>
+        <input type="text" class="form-control" id="TaxNumber" name="TaxNumber" />
+    </div>
+
+    <div class="form-group">
+        <label for="good-conduct">Good Conduct Certificate</label>
+        <input type="file" class="form-control" id="good-conduct" name="GoodConductCertificate" required>
+    </div>
+    <div class="form-group">
+        <label for="helb-clearance">HELB Clearance Certificate</label>
+        <input type="file"  class="form-control" id="helb-clearance" name="HelbClearanceCertificate" required>
+    </div>
+    <div class="form-group">
+        <label for="tax-compliance">Tax Compliance Certificate</label>
+        <input type="file" class="form-control" id="tax-compliance" name="TaxComplianceCertificate" required>
+    </div>
+    <div class="form-group">
+        <label for="ethics-anti-corruption">Ethics and Anti-Corruption Clearance Certificate</label>
+        <input type="file"  class="form-control" id="ethics-anti-corruption" name="EthicsAntiCorruptionClearance" required>
+    </div>
+    <div class="form-group">
+        <label for="crb-certificate">CRB Certificate</label>
+        <input type="file"  class="form-control" id="crb-certificate" name="CrbCertificate" required>
+    </div>
+    <div class="mt-4">
+        <button type="button" class="btn btn-secondary" onclick="prevTab('#experience')">Back</button>
+        <button type="button" class="btn btn-primary" onclick="nextTab('#review')">Review</button>
+    </div>
+</form>

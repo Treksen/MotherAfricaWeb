@@ -1,0 +1,163 @@
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/appsettings.Development.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/appsettings.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/libman.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web.staticwebassets.runtime.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web.deps.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web.runtimeconfig.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web.dll
+/Users/mohamed/Projects/kpa-recruitment-web/web/bin/Debug/net8.0/web.pdb
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.AssemblyInfoInputs.cache
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.AssemblyInfo.cs
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.csproj.CoreCompileInputs.cache
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.MvcApplicationPartsAssemblyInfo.cache
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.RazorAssemblyInfo.cache
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.RazorAssemblyInfo.cs
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.sourcelink.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets.build.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets.development.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets/msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets/msbuild.build.web.props
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.web.props
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.web.props
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/scopedcss/bundle/web.styles.css
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/scopedcss/projectbundle/web.bundle.scp.css
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.dll
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/refint/web.dll
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.pdb
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/web.genruntimeconfig.cache
+/Users/mohamed/Projects/kpa-recruitment-web/web/obj/Debug/net8.0/ref/web.dll
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\appsettings.Development.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\appsettings.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\libman.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.staticwebassets.runtime.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.exe
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.deps.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.runtimeconfig.json
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.dll
+C:\kpa-recruitment-web\web\bin\Debug\net8.0\web.pdb
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.GeneratedMSBuildEditorConfig.editorconfig
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.AssemblyInfoInputs.cache
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.AssemblyInfo.cs
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.csproj.CoreCompileInputs.cache
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.MvcApplicationPartsAssemblyInfo.cache
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cache
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cs
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.sourcelink.json
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.build.json
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.development.json
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.build.web.props
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.web.props
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\bundle\web.styles.css
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\projectbundle\web.bundle.scp.css
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.dll
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\refint\web.dll
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.pdb
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\web.genruntimeconfig.cache
+C:\kpa-recruitment-web\web\obj\Debug\net8.0\ref\web.dll
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\libman.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.staticwebassets.runtime.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.exe
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.deps.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.runtimeconfig.json
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.dll
+C:\Users\user\Documents\kpa-recruitment-web\web\bin\Debug\net8.0\web.pdb
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.AssemblyInfoInputs.cache
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.AssemblyInfo.cs
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cache
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cs
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.sourcelink.json
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.build.web.props
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.web.props
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\bundle\web.styles.css
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\scopedcss\projectbundle\web.bundle.scp.css
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.dll
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\refint\web.dll
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.pdb
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\web.genruntimeconfig.cache
+C:\Users\user\Documents\kpa-recruitment-web\web\obj\Debug\net8.0\ref\web.dll
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\appsettings.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\libman.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.staticwebassets.runtime.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.exe
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.deps.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.runtimeconfig.json
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.dll
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.pdb
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.AssemblyInfo.cs
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cs
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.sourcelink.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\bundle\web.styles.css
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\projectbundle\web.bundle.scp.css
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.dll
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\refint\web.dll
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.pdb
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\web.genruntimeconfig.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\ref\web.dll
+C:\Users\user\Documents\Mother-Africa-Web\web\bin\Debug\net8.0\web.staticwebassets.endpoints.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\user\Documents\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\appsettings.Development.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\appsettings.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\libman.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.staticwebassets.runtime.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.exe
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.deps.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.runtimeconfig.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.dll
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\bin\Debug\net8.0\web.pdb
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.GeneratedMSBuildEditorConfig.editorconfig
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.AssemblyInfoInputs.cache
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.AssemblyInfo.cs
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.csproj.CoreCompileInputs.cache
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.MvcApplicationPartsAssemblyInfo.cache
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cache
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.RazorAssemblyInfo.cs
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.sourcelink.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.build.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.development.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets\msbuild.web.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets\msbuild.build.web.props
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.web.props
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.web.props
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\staticwebassets.pack.json
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\bundle\web.styles.css
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\scopedcss\projectbundle\web.bundle.scp.css
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.dll
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\refint\web.dll
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.pdb
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\web.genruntimeconfig.cache
+E:\Treks\SKILLBRIDGE\My Websites\Mother-Africa-Web\web\obj\Debug\net8.0\ref\web.dll

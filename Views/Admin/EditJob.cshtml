@@ -1,0 +1,142 @@
+﻿@model web.Models.Admin.ManageJobsModel
+
+@{
+    ViewData["Title"] = "Edit Job";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">@ViewData["Title"]</h2>
+
+    <form asp-action="EditJob" method="post" class="needs-validation" novalidate>
+        <div class="form-group">
+            <label asp-for="JobTitle" class="control-label"></label>
+            <input asp-for="JobTitle" class="form-control" />
+            <span asp-validation-for="JobTitle" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="CompanyName" class="control-label"></label>
+            <input asp-for="CompanyName" class="form-control" />
+            <span asp-validation-for="CompanyName" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="JobDescription" class="control-label"></label>
+            <textarea asp-for="JobDescription" class="form-control"></textarea>
+            <span asp-validation-for="JobDescription" class="text-danger"></span>
+        </div>
+
+        <!-- Form Group for Country -->
+        <div class="form-group mb-3">
+            <label for="country" class="control-label">Country</label>
+            <select id="country" name="Country" class="form-select" required>
+                <option value="" selected disabled>Select your country</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Sudan">South Sudan</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Ethiopia">Ethiopia</option>
+                <option value="Uganda">Uganda</option>
+            </select>
+            <span asp-validation-for="Country" class="text-danger"></span>
+        </div>
+
+        <!-- Form Group for County -->
+        <div class="form-group mb-3">
+            <label for="county" class="control-label">County</label>
+            <select id="county" name="County" class="form-select" disabled required>
+                <!-- Options will be populated based on selected country -->
+            </select>
+            <span asp-validation-for="County" class="text-danger"></span>
+        </div>
+
+        <!-- Form Group for Town -->
+        <div class="form-group mb-3">
+            <label for="town" class="control-label">Town</label>
+            <select id="town" name="Town" class="form-select" disabled required>
+                <!-- Options will be populated based on selected county -->
+            </select>
+            <span asp-validation-for="Town" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+            
+
+             <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                       <!-- Include Bootstrap JS -->
+                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+                      <!-- JavaScript for dynamic dropdowns -->
+                        <script>
+                     $(document).ready(function () {
+                 // Data for counties and towns
+                   const data = {
+            "Kenya": {
+                "Nairobi": ["Nairobi CBD", "Westlands", "Kilimani"],
+                "Mombasa": ["Mombasa Island", "Likoni", "Nyali"]
+            },
+            "South Sudan": {
+                "Juba": ["Juba Town", "Gudele", "Konyo-Konyo"],
+                "Wau": ["Wau Town", "Kereib", "Bessel"]
+            },
+            "Rwanda": {
+                "Kigali": ["Kigali City", "Nyarugenge", "Kicukiro"],
+                "Butare": ["Butare Town", "Huye", "Tumba"]
+            },
+            "Ethiopia": {
+                "Addis Ababa": ["Addis Ketema", "Addis Ababa University", "Gullele"],
+                "Mekelle": ["Mekelle City", "Adi-Harush", "Mai-Temen"]
+            },
+            "Uganda": {
+                "Kampala": ["Kampala Central", "Makindye", "Kawempe"],
+                "Entebbe": ["Entebbe Town", "Katabi", "Kitooro"]
+            }
+        };
+
+        // Country selection change event
+        $('#country').on('change', function () {
+            const country = $(this).val();
+            const counties = data[country] || {};
+
+            // Populate counties
+            let countyOptions = '<option value="" selected disabled>Select your county</option>';
+            $.each(counties, function (county) {
+                countyOptions += `<option value="${county}">${county}</option>`;
+            });
+            $('#county').html(countyOptions).prop('disabled', false);
+            $('#town').html('<option value="" selected disabled>Select your town</option>').prop('disabled', true);
+        });
+
+        // County selection change event
+        $('#county').on('change', function () {
+            const country = $('#country').val();
+            const county = $(this).val();
+            const towns = data[country] ? data[country][county] || [] : [];
+
+            // Populate towns
+            let townOptions = '<option value="" selected disabled>Select your town</option>';
+            $.each(towns, function (_, town) {
+                townOptions += `<option value="${town}">${town}</option>`;
+            });
+            $('#town').html(townOptions).prop('disabled', false);
+        });
+    });
+         </script>
+        <div class="form-group">
+            <label asp-for="PostedDate" class="control-label"></label>
+            <input asp-for="PostedDate" class="form-control" type="date" />
+            <span asp-validation-for="PostedDate" class="text-danger"></span>
+        </div>
+
+        <div class="form-group form-check">
+            <input asp-for="IsOpen" class="form-check-input" type="checkbox" />
+            <label asp-for="IsOpen" class="form-check-label">Open</label>
+        </div>
+
+        <input type="hidden" asp-for="JobId" />
+
+        <div class="mt-3">
+            <button type="submit" class="btn btn-primary">Save Changes</button>
+            <a asp-action="ManageJobs" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
