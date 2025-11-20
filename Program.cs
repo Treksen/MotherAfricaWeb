@@ -61,5 +61,8 @@ app.MapControllerRoute(
 
 // Fallback for unknown paths (optional, good for SPA-style)
 app.MapFallbackToController("Index", "Home");
+// Tell Kestrel to listen on the Render port
+var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+app.Urls.Add($"http://*:{port}");
 
 app.Run();
